@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+	width: 100%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menu-item li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 16px;
+	margin-left: 16px;
+	margin-top: 30px;
+}
+.menu-item li a{
+	font-size: 18px;
+}
+.h-btn{
+	margin-top: 20px;
+}
+.h-btn button{
+	background-color: #2e367d;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 25px;
+    border: none;
+    font-size: 16px;
+}
+
+.banner{
+	width: 100%;
+}
+.b-content{
+	display: flex;
+}
+
+.b-left{
+	padding-top: 100px;
+	flex-basis: 45%;
+}
+.b-right{
+	flex-basis: 55%;
+}
+.b-left h1{
+	font-size: 45px;
+	font-weight: 700;
+	color: #1e266d;
+	margin-bottom: 20px;
+}
+.b-right img{
+	width: 100%;
+}
+.b-left p{
+	font-size: 22px;
+	color: #1e266d;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.banner-btn{
+	background-color: #2e367d;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 25px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.banner-btn:hover{
+	background: tomato;
+	cursor: pointer;
+}
+
+
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+}
+.f-content{
+	display: flex;
+}
+.bred{
+	border-top: 10px solid red;
+}
+.bblue{
+	border-top: 10px solid blue;
+}
+.bgreen{
+	border-top: 10px solid green;
+}
+.f-item{
+	flex-basis: 25%;
+	
+}
+.f-item h6{
+	color: #1e266d;
+	font-size: 18px;
+	margin-bottom: 16px;
+	font-weight: 600;
+}
+.f-item p{
+	color: #91a3bb;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.f-item ul li{
+	list-style: none;
+}
+.f-item ul li a{
+	color: #91a3bb;
+	font-size: 16px;
+	line-height: 1.6;
+	transition: 0.5s;
+}
+.f-item ul li a:hover{
+	margin-left: 12px;
+	transition: 0.5s;
+	color: black;
+}
+
+.address{
+	width: 100%;
+	padding: 100px 0;
+}
+.a-content{
+	display: flex;
+	background-color: #2e367d;
+	padding: 80px 60px;
+	border-radius: 14px;
+}
+.a-item{
+	flex-basis: 50%;
+}
+.a-item h2{
+	color: white;
+	margin-bottom: 16px;
+}
+.a-item p{
+	color: white;
+	margin-bottom: 6px;
+}
